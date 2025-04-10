@@ -19,12 +19,7 @@ Example:
 - Track Flight: screenshots/track_flight.png
 - Average Time: screenshots/average_time.png
 
-Prerequisites
--------------
-- Android Studio: Version 2023.1.1 or later (e.g., Flamingo).
-- Kotlin: Version 1.9.0 or higher.
-- API Key: A valid AviationStack API key (https://aviationstack.com/) (currently hardcoded as "7b8a8a5360149db1133ade6ca2f89fb0").
-- Internet Connection: Required for API calls and background updates.
+
 
 Setup Instructions
 ------------------
@@ -121,25 +116,6 @@ Troubleshooting
 - No Flights Found: Ensure valid IATA codes or flight codes are used (e.g., "AA1004"). Check API key validity.
 - Database Not Updating: Verify internet connectivity and check Logcat (FlightTracker, DatabaseEntries, FlightDataWorker).
 - Errors: Review error messages in the UI or Logcat for details.
-
-Future Enhancements
--------------------
-- Secure API key storage.
-- Use real flight duration data from the API (if available).
-- Add a manual refresh button for database entries.
-- Implement a settings screen to configure background update frequency.
-
-Contributing
-------------
-1. Fork the repository.
-2. Create a feature branch (git checkout -b feature-name).
-3. Commit changes (git commit -m "Add feature").
-4. Push to the branch (git push origin feature-name).
-5. Open a pull request.
-
-License
--------
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
 ---------------
